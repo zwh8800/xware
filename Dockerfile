@@ -9,5 +9,6 @@ ADD monitor.sh /xware
 
 VOLUME /data
 
-CMD ["./monitor.sh"]
+RUN ./portal
 
+CMD ["./monitor.sh"]
