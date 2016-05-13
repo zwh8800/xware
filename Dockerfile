@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 MAINTAINER zwh8800 <496781108@qq.com>
 
 RUN apt-get update && apt-get install -y libc6-i386 lib32z1
