@@ -1,0 +1,6 @@
+xware:
+  image: zwh8800/xware
+  restart: always
+  volumes:
+    - ./cfg:/xware/cfg
+    - ./data:/data
